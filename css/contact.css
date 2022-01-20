@@ -146,184 +146,122 @@ a {
   color: #014e56;
 }
 
-.site-info {
-  display: flex;
-  align-items: flex-end;
+
+.site-contact {
   padding: 120px 0px;
+  background-color: #014e56;
 }
 
-.site-info-heading {
-  align-self: flex-start;
-  margin: 0;
-  margin-right: 30px;
-  width: 100%;
-  max-width: 350px;
-  font-size: 100px;
-  line-height: 100px;
-
-}
-
-
-.site-info-text {
-  width: 100%;
-  max-width: 730px;
-  margin: 0;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-
-/* SITE-HERO */
-
-.site-hero {
-  background-color: #004047;
-
-}
-
-.site-hero-wrapper {
-  margin: 0;
-  padding: 140px 0px;
-}
-
-.site-hero-heading {
-  margin-top: 0;
-  margin-bottom: 64px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
-  text-align: center;
-}
-
-.site-hero-card-box {
+.contact-page {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
 }
 
-.site-hero-card {
+.site-contact-about {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 32px 24px;
-  width: 100%;
-  max-width: 350px;
-  background-color: #012f34;
-  background: url(../img/icon-plus.svg) no-repeat center;
-  background-position: bottom center;
+  margin-right: 113px;
 }
 
-.site-hero-card:not(:last-child) {
-  margin-right: 30px;
-}
-
-.site-hero-card p {
-  margin: 0;
-}
-
-.site-hero-card-img {
-  margin-top: 0px;
+.site-contact-about-heading {
+  margin-top: 0;
   margin-bottom: 16px;
-  border: 2px solid #c4fffe;
-  border-radius: 50%;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
 }
 
-.site-hero-card-thought-name {
+.site-contact-about-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-about-box-heading {
+  margin-top: 0;
+  margin-bottom: 32px;
   font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #F67E7E;
+}
+
+.contact-about-info {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+
+}
+
+.contact-about-info-img {
+  margin-right: 23px;
+}
+
+.contact-about-info-text {
+  margin: 0;
+  font-weight: bold;
   font-size: 18px;
   line-height: 28px;
-  color: #79c8c7;
 }
 
-.site-hero-card-thought-position {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: center;
+.site-contact-about-form {
+  flex-grow: 1;
 }
 
-.hero-card-plus-icon {
+.contact-about-form-box {
+  display: flex;
+  flex-direction: column;
 
 }
 
-.site-hero-card-thought-advice {
+.contact-about-input {
+  padding: 0px 81px 17px 14px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 540px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #79c8c7;
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
-  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #fff;
 
 }
 
-.network-links {}
-
-.network-link {}
-
-.network-link-icon {}
-
-
-/* SITE-FEATURES */
-
-.site-features {
-  background-color: #012f34;
-  padding: 140px 0px;
-}
-
-.site-features-wrapper {}
-
-.site-features-heading {
-  margin-top: 0;
-  margin-bottom: 64px;
- font-weight: 700;
-font-size: 48px;
-line-height: 48px;
-text-align: center;
-}
-
-.site-features-icons {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.site-features-img {}
-
-
-.site-features-img:not(:last-child){
-  margin-right: 79px;
-}
-/* SITE-CTA */
-
-.site-cta {
-  background-color: #f67e7e;
-}
-
-.site-cta-wrapper {
-  padding: 76px 0px;
-  display: flex;
-  align-items: center;
-
-}
-
-.site-cta-heading {
-  margin: 0;
-  width: 100%;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
-  color: #012f34;
-}
-
-.cta-button-link {
-  color: #012f34;
-  padding: 10px 32px;
+.contact-about-textarea {
+  margin-bottom: 24px;
+  padding-bottom: 58px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.12px;
+  color: #fff;
+  opacity: 0.6;
   background: transparent;
-  border: 2px solid #012f34;
-  margin-left: auto;
+  border: none;
+  border-bottom: 1px solid #79c8c7;
+
 }
 
-.cta-button-link:hover {
-  background: #012f34;
+.site-about-form-link {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #004047;
+  padding: 10px 32px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+.site-about-form-link:hover{
+  background-color:transparent;
   color: #fff;
 }
+
 
 /* SITE-FOOTER */
 .site-footer {
