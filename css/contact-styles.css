@@ -90,6 +90,7 @@ a {
 
 .site-header-container {
   background-color: #014e56;
+
 }
 
 .site-header {
@@ -97,7 +98,7 @@ a {
   display: flex;
   align-items: center;
   padding-top: 73px;
-
+  padding-bottom: 120px;
 }
 
 .site-logo {
@@ -147,8 +148,12 @@ a {
 }
 
 
+/* SITE-CONTACT */
+
 .site-contact {
-  padding: 120px 0px;
+  padding-bottom: 120px;
+  background: url(../img/directors-circle.svg) no-repeat, url(../img/left-cicle.svg) no-repeat;
+  background-position: left -100px top, right bottom;
   background-color: #014e56;
 }
 
