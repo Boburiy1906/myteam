@@ -119,6 +119,7 @@ a {
   font-size: 18px;
   line-height: 28px;
   color: #fff;
+  transition: color 4s ease;
 }
 
 .site-main-link:hover {
@@ -249,22 +250,29 @@ a {
 
 }
 
+.button-submit{
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 24px;
+  background-color: #fff;
+}
+
 .site-about-form-link {
-  display: inline-block;
+  display: block;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
   color: #004047;
   padding: 10px 32px;
-  background-color: #fff;
-  border: 2px solid #fff;
-  box-sizing: border-box;
-  border-radius: 24px;
 }
 
 .site-about-form-link:hover{
-  background-color:transparent;
   color: #fff;
+}
+
+.button-submit:hover{
+  background-color: #004047;
+
 }
 
 

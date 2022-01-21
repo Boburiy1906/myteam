@@ -214,13 +214,9 @@ a {
   padding: 32px 24px;
   width: 100%;
   max-width: 350px;
-
   background-color: #012f34;
 }
 
-.site-hero-card:not(:first-child) {
-
-}
 
 .site-hero-card p {
   margin: 0;
@@ -257,17 +253,33 @@ a {
   height: 56px;
   border-radius: 100%;
   background-color: #f67e7e;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .cicle:hover {
   background-color: #79c8c7;
+  cursor: pointer;
 }
 
 .cicle:active{
   opacity: 0.6;
   transform: rotate(45deg);
 }
+
+.ciclex {
+  background-color: #79c8c7;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.ciclex:hover {
+  background-color: #f67e7e;
+}
+
+.ciclex:active{
+  transform: rotate(-90deg);
+}
+
 
 .site-hero-card-thought-advice {
   font-weight: 600;
@@ -290,19 +302,6 @@ a {
   fill: #f67e7e;
 }
 
-.ciclex {
-  background-color: #79c8c7;
-  transform: rotate(45deg);
-  transition: transform 0.2s ease;
-}
-
-.ciclex:hover {
-  background-color: #f67e7e;
-}
-
-.ciclex:active{
-  transform: rotate(-90deg);
-}
 
 
 /* SITE-FEATURES */
